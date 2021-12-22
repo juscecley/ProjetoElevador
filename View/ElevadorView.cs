@@ -16,6 +16,9 @@ namespace ProjetoElevador.View
                 Andares do predio: {elevador.TotalAndares}
                 Capacidade do elevador: {elevador.Capacidade}
 
+                Quantidade de pessoas no elevador: {elevador.TotalPessoas}
+                Andar Atual: {elevador.AndarAtual}
+
                 Escolha uma opção:
                 1 - Entar no Elevador
                 2 - Sair do Elevador
@@ -24,7 +27,7 @@ namespace ProjetoElevador.View
                 5 - Sair
                 ");
 
-                string opcao = Console.ReadLine();
+                var opcao = Console.ReadLine();
                 Console.Clear();
 
 
